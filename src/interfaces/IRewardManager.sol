@@ -10,7 +10,7 @@ interface IRewardManager {
         uint256 maxVariableAPY;
     }
 
-    // Events.
+    // Events..
     event RewardTokenAdded(address indexed token);
     event RewardTokenRemoved(address indexed token);
     event RewardRatesUpdated(address indexed stakingToken, address[] rewardTokens, uint256[] rates);
